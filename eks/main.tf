@@ -21,7 +21,7 @@ module "eks" {
   is_eks_role_enabled           = true
   is_eks_nodegroup_role_enabled = true
   cluster-version               = var.cluster-version
-  endpoint-public-access        = var.endpoint-public-access
+  endpoint-public-access        = true
   max_capacity_spot             = var.max_capacity_spot
   min_capacity_spot             = var.min_capacity_spot
   desired_capacity_spot         = var.desired_capacity_spot

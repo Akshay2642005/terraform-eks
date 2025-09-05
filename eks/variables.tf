@@ -18,7 +18,6 @@ variable "eks-sg" {}
 
 # EKS
 variable "cluster-version" {}
-variable "endpoint-public-access" {}
 variable "max_capacity_spot" {}
 variable "min_capacity_spot" {}
 variable "desired_capacity_spot" {}
