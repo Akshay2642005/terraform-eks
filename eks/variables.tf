@@ -20,6 +20,8 @@ variable "eks-sg" {}
 variable "cluster-version" {}
 variable "endpoint-public-access" {}
 variable "max_capacity_spot" {}
+variable "min_capacity_spot" {}
+variable "desired_capacity_spot" {}
 variable "node-group-name" {}
 variable "instance-types" {}
 variable "ec2-ssh-key" {}
